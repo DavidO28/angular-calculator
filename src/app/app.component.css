@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+.calculator {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid grey;
+    padding: 10px;
+
+}
+.calculator input {
+    border: 0;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+}

@@ -1,0 +1,15 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3px;
+    padding: 3px;
+    
+}
+.buttons button {
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background-color: lightgray;
+}

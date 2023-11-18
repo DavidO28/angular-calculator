@@ -1,0 +1,8 @@
+<div class="buttons">
+    <button *ngFor='let item of counter(10) ;let i = index' (click)="write($event)" >{{ i }}</button>
+    <button (click)="write($event)" >.</button>
+    <button (click)="write($event)" >+</button>
+    <button (click)="write($event)" >-</button>
+    <button (click)="write($event)" >*</button>
+    <button (click)="write($event)" >/</button>
+</div>

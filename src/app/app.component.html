@@ -1,0 +1,7 @@
+<div class="calculator">
+  <h1>{{ title }}</h1>
+  <input type="text" value="{{ inpValue }}" #calcInp>
+  <app-buttons (outputButtonValues)="recieveInputValues($event)"></app-buttons>
+  <button (click)="calculate(calcInp.value)">=</button>
+  <button (click)="reset()">reset</button>
+</div>
